@@ -1,0 +1,131 @@
+/* Ukuran Desktop */
+@media all and (min-width: 1170px) and (max-width:1980px) {
+  .menu-icon{
+    display: none;
+  }
+}
+
+/* Ukuran Tablet */
+@media all and (max-width: 1000px) {
+  .menu-icon{
+    display: none;
+  }
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+/*=======================================*/
+  .mainbody h2{
+    font-size: 28px;
+  }
+  .mainbody p{
+    font-size: 18px;
+  }
+/*=======================================*/
+  .images img {
+    max-width: 310px;
+    overflow-x: hidden;
+  }
+/*=======================================*/
+  .content4 {
+  height: auto;
+  padding-bottom: 20px;
+  }
+  .single-box {
+  margin: 20px 5px;
+  height: 600px;
+  }
+/*=======================================*/
+  .lesson{
+    font-size: small;
+    margin-left: 80px;
+    margin-right: 100px;
+  }
+}
+
+/* Ukuran Smartphone */
+@media all and (max-width: 670px) {
+  .header-right{
+    display: none;
+  }
+
+  .menu-icon{
+    display: block;
+  }
+
+  .top-wrapper {
+    text-align: left;
+  }
+
+  .top-wrapper h1 {
+    font-size: 24px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+  }
+/*=======================================*/
+.mainbody h2{
+  font-size: 24px;
+}
+.mainbody p{
+  font-size: 14px;
+}
+/*=======================================*/
+  .our-service {
+    padding: 30px 10px;
+  }
+  .our-service h1 {
+    font-size: 24px;
+  }
+  .service,
+  .figure {
+    width: 40%;
+  }
+  .figure {
+    margin: 5px 30px
+  }
+  .portfolio h1 {
+    font-size: 24px;
+  }
+  .portfolio p {
+    font-size: 18px;
+  }
+  .images img {
+    max-width: 246px;
+    overflow-x: hidden;
+}
+/*=======================================*/
+.content4 {
+  height: auto;
+}
+.single-box {
+  margin: 20px 20px;
+  height: 400px;
+}
+.img-box {
+  width: 120px;
+  height: 120px; 
+}
+.txt-box p {
+  font-size: x-small;
+}
+.head h1{
+  color: #eb6d4c;
+  font-size: 24px;
+}
+.head h3 {
+  font-size: 18px;
+}
+/*=======================================*/
+  .lesson{
+    font-size: x-small;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+.btn-lesson{
+    font-size: 30px;
+  }
+.heading h1{
+    font-size: 20px;
+  }
+}
