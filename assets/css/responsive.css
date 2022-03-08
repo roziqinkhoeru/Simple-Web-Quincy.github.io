@@ -1,0 +1,161 @@
+/* Ukuran Desktop */
+@media all and (min-width: 1170px) and (max-width: 1980px) {
+  .menu-icon {
+    display: none;
+  }
+}
+
+/* Ukuran Tablet */
+@media all and (max-width: 1000px) {
+  .menu-icon {
+    display: none;
+  }
+
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  /*=======================================*/
+  .mainbody h2 {
+    font-size: 28px;
+  }
+
+  .mainbody p {
+    font-size: 18px;
+  }
+
+  /*=======================================*/
+  .images img {
+    overflow-x: hidden;
+
+    max-width: 310px;
+  }
+
+  /*=======================================*/
+  .content4 {
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .single-box {
+    height: 600px;
+    margin: 20px 5px;
+  }
+
+  /*=======================================*/
+  .lesson {
+    font-size: small;
+
+    margin-right: 100px;
+    margin-left: 80px;
+  }
+}
+
+/* Ukuran Smartphone */
+@media all and (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .top-wrapper {
+    text-align: left;
+  }
+
+  .top-wrapper h1 {
+    font-size: 24px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+  }
+
+  /*=======================================*/
+  .mainbody h2 {
+    font-size: 24px;
+  }
+
+  .mainbody p {
+    font-size: 14px;
+  }
+
+  /*=======================================*/
+  .our-service {
+    padding: 30px 10px;
+  }
+
+  .our-service h1 {
+    font-size: 24px;
+  }
+
+  .service,
+  .figure {
+    width: 40%;
+  }
+
+  .figure {
+    margin: 5px 30px;
+  }
+
+  .portfolio h1 {
+    font-size: 24px;
+  }
+
+  .portfolio p {
+    font-size: 18px;
+  }
+
+  .images img {
+    overflow-x: hidden;
+
+    max-width: 246px;
+  }
+
+  /*=======================================*/
+  .content4 {
+    height: auto;
+  }
+
+  .single-box {
+    height: 400px;
+    margin: 20px 20px;
+  }
+
+  .img-box {
+    width: 120px;
+    height: 120px;
+  }
+
+  .txt-box p {
+    font-size: x-small;
+  }
+
+  .head h1 {
+    font-size: 24px;
+
+    color: #eb6d4c;
+  }
+
+  .head h3 {
+    font-size: 18px;
+  }
+
+  /*=======================================*/
+  .lesson {
+    font-size: x-small;
+
+    margin-right: 80px;
+    margin-left: 80px;
+  }
+
+  .btn-lesson {
+    font-size: 30px;
+  }
+
+  .heading h1 {
+    font-size: 20px;
+  }
+}

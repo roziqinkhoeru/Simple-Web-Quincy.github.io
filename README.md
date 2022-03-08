@@ -27,23 +27,10 @@ Folder Structure:
  ┗ 📜README.md
 ```
 
-## 🎯 Features
-
-- Responsives all devices
-- Easy to use
-- Modern Design
-
 ## 👨‍💻 Teams
 
-- [Iwan Suryaningrat](https://github.com/iwansuryaningrat)
+- [Wahid Nur Hidayah](https://github.com/mbahwahid)
+- [Tio Reza Muchtar](https://github.com/TamCik)
+- [Andra Aprianata](https://github.com/andraa0104)
 - [Khoeru Roziqin](https://github.com/roziqinkhoeru)
-- [Musa Alfian Maulana](https://github.com/musaalfian)
-- [Ronny Dominikus](https://github.com/)
-
-## 🏨 Used By
-
-Projek ini ditujukan untuk memenuhi _Tugas Besar_ pada matakuliah Proyek Perangkat Lunak Semester 5 Informatika Universitas Diponegoro
-
-**Ayo Vaksin. Save yourself to save others.**
-
-![pwa](https://user-images.githubusercontent.com/7887699/39677462-cdc1e386-5198-11e8-9706-d603a93fa97a.png)
+- [Mohammad Roni](https://github.com/)
