@@ -38,7 +38,7 @@
   }
 
   .single-box {
-    height: 600px;
+    height: 500px;
     margin: 20px 5px;
   }
 
@@ -91,13 +91,13 @@
     font-size: 24px;
   }
 
-  .service,
-  .figure {
-    width: 40%;
+  .service {
+    width: 100%;
+    padding: 1.5rem;
   }
 
-  .figure {
-    margin: 5px 30px;
+  .images {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .portfolio h1 {
@@ -115,6 +115,10 @@
   }
 
   /*=======================================*/
+  .box__about {
+    width: 100%;
+  }
+
   .content4 {
     height: auto;
   }
@@ -149,10 +153,15 @@
 
     margin-right: 80px;
     margin-left: 80px;
+    margin-top: 72px;
   }
 
   .btn-lesson {
     font-size: 30px;
+  }
+
+  #contact .heading {
+    margin-top: 72px;
   }
 
   .heading h1 {

@@ -1,3 +1,8 @@
+<div align="center">  
+  <p><img src="https://raw.githubusercontent.com/roziqinkhoeru/Simple-Web-Quincy/main/assets/images/logo.png" width=84/></p>
+  <p><strong>Quancy</strong> Simple Protfolio Website</p>
+</div>
+
 # 🧱 Project Team A01
 
 Team A01 was formed to fulfill the task of creating a website on ANTI RIBET BOOTCAMP X PROGATE in March 2021. The members are [Wahid Nur Hidayah](https://github.com/mbahwahid), [Tio Reza Muchtar](https://github.com/TamCik), [Andra Aprianata](https://github.com/andraa0104), [Khoeru Roziqin](https://github.com/roziqinkhoeru), [Mohammad Roni](https://github.com/)
