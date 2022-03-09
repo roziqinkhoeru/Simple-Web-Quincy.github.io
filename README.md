@@ -1,7 +1,7 @@
 <br/>
 <div align="center">  
   <p><img src="https://raw.githubusercontent.com/roziqinkhoeru/Simple-Web-Quincy/main/assets/images/logo.png" width=270/></p>
-  **Quancy** Simple Protfolio Website
+  <p><strong>Quancy</strong> Simple Protfolio Website</p>
 </div>
 <br/>
 
