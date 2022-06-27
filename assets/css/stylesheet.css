@@ -21,7 +21,7 @@ a {
   padding: 0 15px;
 }
 
-header {
+nav {
   position: fixed;
   z-index: 10;
   top: 0;
@@ -76,6 +76,7 @@ header {
   padding: 8px 0;
 
   color: white;
+  display: none;
 }
 
 .top-wrapper {
