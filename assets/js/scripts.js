@@ -1,11 +1,15 @@
-let navbar = document.getElementById("navbar");
-let link = document.getElementById("link-a");
-let showMenu = document.getElementById("show-menu");
+let navbar = document.getElementById("menu_navbar");
+let menuBar = document.getElementById("menu_icon");
+let closeBar = document.getElementById("menu_close");
 
-link.addEventListener("click", function () {
-  document.getElementById("navbar").classList.add("show-menu");
+menuBar.addEventListener("click", function () {
+  this.classList.remove("show-menu");
+  closeBar.classList.add("show-menu");
+  navbar.classList.add("active");
 });
 
-showMenu.addEventListener("click", function () {
-  document.getElementById("navbar").classList.remove("show-menu");
+closeBar.addEventListener("click", function () {
+  this.classList.remove("show-menu");
+  menuBar.classList.add("show-menu");
+  navbar.classList.remove("active");
 });

@@ -43,7 +43,7 @@ nav {
   margin: 8px 0;
 }
 
-.header-right {
+#menu_navbar {
   line-height: 48px;
 
   float: right;
@@ -51,7 +51,7 @@ nav {
   margin-right: -25px;
 }
 
-.header-right a {
+#menu_navbar a {
   display: block;
   float: left;
 
@@ -62,20 +62,21 @@ nav {
   color: white;
 }
 
-.header-right a:hover {
+#menu_navbar a:hover {
   font-weight: bolder;
 
   color: #eb6d4c;
 }
 
 .menu-icon {
-  font-size: 25px;
-
   float: right;
 
   padding: 8px 0;
+}
 
+.menu-icon i {
   color: white;
+  font-size: 1.5rem;
   display: none;
 }
 

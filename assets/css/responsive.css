@@ -1,10 +1,3 @@
-/* Ukuran Desktop */
-/* @media all and (min-width: 1170px) and (max-width: 1980px) {
-  .menu-icon {
-    display: none;
-  }
-} */
-
 /* Ukuran Tablet */
 @media all and (max-width: 1000px) {
   .top-wrapper h1 {
@@ -49,8 +42,8 @@
 
 /* Ukuran Smartphone */
 @media all and (max-width: 670px) {
-  .header-right {
-    top: 0;
+  #menu_navbar {
+    top: -25rem;
     left: 0;
     right: 0;
     width: 100%;
@@ -64,14 +57,19 @@
     align-items: center;
     justify-content: center;
     z-index: -1;
+    transition: all 0.3s ease-in-out;
   }
 
-  .header-right a {
+  #menu_navbar a {
     display: block;
     padding: 0.75rem 0;
   }
 
-  .menu-icon {
+  #menu_navbar.active {
+    top: 0;
+  }
+
+  .menu-icon i.show-menu {
     display: block;
   }
 
