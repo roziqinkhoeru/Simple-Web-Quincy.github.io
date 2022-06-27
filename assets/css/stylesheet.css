@@ -455,7 +455,6 @@ footer {
   font-size: x-small;
 
   width: 100%;
-  height: 48px;
 
   background-color: #2a2e39;
 }
@@ -463,6 +462,7 @@ footer {
 footer p {
   font-size: small;
   line-height: 48px;
+  margin-bottom: 0;
 
   text-align: center;
 
