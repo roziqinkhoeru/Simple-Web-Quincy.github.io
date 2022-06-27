@@ -62,6 +62,12 @@ nav {
   color: white;
 }
 
+#menu_navbar a.active {
+  font-weight: bolder;
+
+  color: #eb6d4c;
+}
+
 #menu_navbar a:hover {
   font-weight: bolder;
 
