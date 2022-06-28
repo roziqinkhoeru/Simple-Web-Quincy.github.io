@@ -5,13 +5,13 @@ let closeBar = document.getElementById("menu_close");
 menuBar.addEventListener("click", function () {
   this.classList.remove("show-menu");
   closeBar.classList.add("show-menu");
-  navbar.classList.add("active");
+  navbar.classList.add("show-menu");
 });
 
 closeBar.addEventListener("click", function () {
   this.classList.remove("show-menu");
   menuBar.classList.add("show-menu");
-  navbar.classList.remove("active");
+  navbar.classList.remove("show-menu");
 });
 
 const navItems = document.querySelectorAll(".nav-item");

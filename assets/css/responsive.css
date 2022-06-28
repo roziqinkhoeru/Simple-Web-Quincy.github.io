@@ -65,7 +65,7 @@
     padding: 0.75rem 0;
   }
 
-  #menu_navbar.active {
+  #menu_navbar.show-menu {
     top: 0;
   }
 
