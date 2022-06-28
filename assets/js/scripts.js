@@ -32,5 +32,8 @@ for (var i = 0; i < navItems.length; i++) {
       current.classList.remove("active");
     }
     this.classList.add("active");
+    closeBar.classList.remove("show-menu");
+    menuBar.classList.add("show-menu");
+    navbar.classList.remove("show-menu");
   });
 }
